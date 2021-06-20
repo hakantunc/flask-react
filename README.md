@@ -7,4 +7,16 @@ Run the following command from the `server` directory
 You can test the server by visiting http://localhost:5000/action or
 running the following command
 
-    curl http://127.0.0.1:5000/action
+    curl http://localhost:5000/action
+
+# Client
+
+Run the following command from the `client` directory
+
+Install dependencies
+
+    npm i
+
+Serve the client at http://localhost:3000
+
+    npm run start
